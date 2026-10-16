@@ -83,6 +83,10 @@ h1 em,h2 em { color:var(--blue); font-style:normal; }
 .visual-stamp { position:absolute; top:14px; right:14px; width:76px; height:76px; display:grid; place-content:center; background:var(--orange); color:#fff; text-align:center; font-family:var(--font-nunito),sans-serif; font-size:17px; line-height:.85; transform:rotate(4deg); }
 .visual-stamp span { display:block; margin-top:5px; font-family:var(--font-nunito),sans-serif; font-size:8px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
 .company-band { padding:92px 0; background:var(--blue-soft); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.company-with-bg { position:relative; overflow:hidden; }
+.company-bg-image { position:absolute; inset:0; background:url('/manufacturing-facility.jpg') center/cover no-repeat; z-index:0; }
+.company-bg-image::after { position:absolute; inset:0; content:''; background:rgba(255,255,255,0.95); }
+.company-with-bg .shell { position:relative; z-index:1; }
 .company-grid { display:grid; grid-template-columns:1fr 1fr; gap:125px; }
 h2 { margin-bottom:24px; font-size:clamp(38px, 4.8vw, 62px); line-height:1.03; }
 .section-intro h2 { max-width:440px; }
