@@ -9,8 +9,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: 'Liu Yu | Design-First Power Product Manufacturing',
-  description: 'See the design before you order. We manufacture backup power products in Haikou, share complete CAD files first, then produce at wholesale scale.',
+  title: 'Liu Yu | Design-First Power Product Trading',
+  description: 'See the design before you order. We develop backup power product designs in Haikou and coordinate sourcing through Chinese manufacturing networks. Israeli engineering meets Chinese production.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
