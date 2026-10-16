@@ -9,8 +9,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: 'Liu Yu | Haikou Yuyoukang Trading Co., Ltd',
-  description: 'Founder-led sourcing and trading coordination from Haikou, China.',
+  title: 'Liu Yu | Design-First Power Product Manufacturing',
+  description: 'See the design before you order. We manufacture backup power products in Haikou, share complete CAD files first, then produce at wholesale scale.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
