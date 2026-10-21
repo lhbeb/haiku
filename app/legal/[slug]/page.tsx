@@ -68,7 +68,7 @@ export default async function LegalPage({ params }: LegalPageProps) {
         <p className="legal-updated">Last updated: October 16, 2026</p>
         <div className="legal-sections">{page.sections.map(([heading, body]) => <section key={heading}><h2>{heading}</h2><p>{body}</p></section>)}</div>
       </article>
-      <footer className="footer"><div className="shell footer-inner"><span>© 2026 Haikou Yuyoukang Trading Co., Ltd</span><span>China office: China, Hainan, Haikou, Qiongshan District, 13, 东北方向140米 · 571137<br />Israel office: לח״י 31, Lekhi St 21, Bnei Brak, Israel</span><a href="/">Back to home ↑</a></div></footer>
+      <footer className="footer"><div className="shell footer-inner"><span>© 2026 Haikou Yuyoukang Trading Co., Ltd</span><span>Business address: 海南省海口市龙华区城西镇布沙路9983楼号1022房 · 海口市, 海南省, 570100<br />Israel office: לח״י 31, Lekhi St 21, Bnei Brak, Israel</span><a href="/">Back to home ↑</a></div></footer>
     </main>
   );
 }
